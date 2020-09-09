@@ -24,9 +24,9 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
 		<!-- Web dependencies -->
-		<webjars-bootstrap.version>3.3.6</webjars-bootstrap.version>
+		<webjars-bootstrap.version>4.5.0</webjars-bootstrap.version>
 		<webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
-		<webjars-jquery.version>2.2.4</webjars-jquery.version>
+		<webjars-jquery.version>3.5.0</webjars-jquery.version>
 		<wro4j.version>1.8.0</wro4j.version>
 
 		<jacoco.version>0.8.5</jacoco.version>
@@ -39,7 +39,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-			<version>2.2.1.RELEASE</version>
+			<version>2.3.0.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
@@ -49,17 +49,17 @@
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-websocket</artifactId>
-			<version>9.0.29</version>
+			<version>9.0.37</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-core</artifactId>
-			<version>9.0.29</version>
+			<version>9.0.37</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>5.4.12.Final</version>
+			<version>5.4.18.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -139,7 +139,7 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-cache</artifactId>
-			<version>2.0.5.RELEASE</version>
+			<version>2.3.0.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
